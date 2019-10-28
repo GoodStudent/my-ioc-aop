@@ -1,0 +1,38 @@
+[
+  {
+    "id": "zhushijun",
+    "class": "com.maybe.bean.Man",
+    "properties": [
+      {
+        "property": "age",
+        "value": 18
+      },
+      {
+        "property": "name",
+        "value": "maybe"
+      },
+      {
+        "property": "wife",
+        "ref": "chengran"
+      }
+    ]
+  },
+  {
+    "id": "chengran",
+    "class": "com.maybe.bean.",
+    "properties": [
+      {
+        "property": "name",
+        "value": "orange"
+      },
+      {
+        "property": "hobby",
+        "value": "eating"
+      },
+      {
+        "property": "husband",
+        "ref": "zhushijun"
+      }
+    ]
+  }
+]
